@@ -1,0 +1,11 @@
+#ba-color{
+	background-color:#fef8f5;;
+}
+.ani{
+	animation: up 2s infinite;
+	position:relative;
+}
+@keyframes up{
+	from{bottom:0px;}
+	to{bottom:10px};
+}
