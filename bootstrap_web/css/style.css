@@ -1,5 +1,5 @@
 #ba-color{
-	background-color:#fef8f5;;
+	background-color:#fef8f5;
 }
 .ani{
 	animation: up 2s infinite;
@@ -8,4 +8,13 @@
 @keyframes up{
 	from{bottom:0px;}
 	to{bottom:10px};
+}
+.banner1{
+	border-bottom:2px solid #fcebe3;
+}
+#bg-icon{
+	color:#eb5d1e;
+}
+#bg-back{
+	background-color:#eb5d1e;
 }
