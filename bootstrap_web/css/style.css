@@ -1,6 +1,9 @@
 #ba-color{
 	background-color:#fef8f5;
 }
+.ba-color{
+	background-color:#fef8f5;
+}
 .ani{
 	animation: up 2s infinite;
 	position:relative;
@@ -20,4 +23,7 @@
 }
 .imig{
 	border-radius:8px;
+}
+.imig1{
+	border-radius:10px;
 }
