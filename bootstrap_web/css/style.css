@@ -21,9 +21,39 @@
 #bg-back{
 	background-color:#eb5d1e;
 }
+.but-des{
+	border:none;
+}
 .imig{
 	border-radius:8px;
 }
 .imig1{
 	border-radius:10px;
+}
+#divimg{
+	width:5vw;
+}
+.w-input{
+	width:100%;
+}
+.b-tbottom{
+	border-bottom:3px solid #eb5d1e;
+	border-top:3px solid #eb5d1e;
+}
+.con-bk{
+	color:#eb5d1e;
+	background-color:#fef8f5;
+	text-align:center;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	border-radius:50%;
+	height:2.5rem;
+	width:2.5rem;
+}
+.social-icon i{
+	display:inline-block;
+	margin-left:15px;
+	
+	
 }
