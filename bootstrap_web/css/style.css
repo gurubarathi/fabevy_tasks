@@ -4,6 +4,33 @@
 .ba-color{
 	background-color:#fef8f5;
 }
+#nav-ho a:hover{
+	color:red;
+}
+#ser-ho{
+   position:relative;
+} 
+#ser-ho:hover{
+	border-bottom:3px solid red;
+	margin-top:-10px;
+	
+}
+.uline{
+	position:relative;
+}
+
+.uline::after{
+	content: "";
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    background: #eb5d1e;
+	display:block;
+	left:47%;
+	 bottom:-45%;
+	
+	
+}
 .ani{
 	animation: up 2s infinite;
 	position:relative;
@@ -18,6 +45,9 @@
 #bg-icon{
 	color:#eb5d1e;
 }
+.bg-icon{
+	color:#eb5d1e;
+}
 #bg-back{
 	background-color:#eb5d1e;
 }
@@ -29,9 +59,6 @@
 }
 .imig1{
 	border-radius:10px;
-}
-#divimg{
-	width:5vw;
 }
 .w-input{
 	width:100%;
@@ -53,7 +80,57 @@
 }
 .social-icon i{
 	display:inline-block;
-	margin-left:15px;
+	margin-left:10px;
 	
-	
+}
+.ma-left{
+	margin-left:-2rem;
+}
+.ma-left li{
+	display:block;
+	margin-bottom:0.5rem;
+}
+.ma-top{
+	margin-top:-1rem;
+}
+#social-b i{
+	color:#fff;
+    background-color:#eb5d1e;
+	padding:7px 10px;
+	border-radius:50%;
+}
+
+/*======portfolio image hover*/
+#social-c i{
+	color:#eb5d1e;
+    background-color:#fff;
+	padding:7px 10px;
+	border-radius:50%;
+	display:inline-block;
+	margin-left:8px;
+}
+#social-c i:hover{
+	color:#fff;
+    background-color:#eb5d1e;
+	padding:7px 10px;
+	border-radius:50%;
+}
+#slide-3{
+	position:relative;
+	z-index:0;
+}
+#slide2{
+	position:absolute;
+	z-index:2;
+	background-color:rgb(0,0,0,0.4);
+	top:0;
+	bottom:0;
+	left:12px;
+	right:12px;
+	border-radius: 8px;
+	opacity:0;
+}
+#slide2:hover{
+	opacity:1;
+	transition: all ease-in-out 0.3s;
 }
