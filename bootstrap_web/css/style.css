@@ -118,19 +118,80 @@
 #slide-3{
 	position:relative;
 	z-index:0;
+	overflow:hidden;
+	transition:0.3s;
+	border-radius: 8px;
+}
+#slide-3::before{
+	content: "";
+    background: rgba(0,0,0, 0.6);
+    position: absolute;
+    left:100%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transition: all ease-in-out 0.3s;
+    z-index: 2;
+	
+}
+#slide-3:hover::before{
+	left:0;
+}
+#slide3 img{
+	transition: 0.3s;
+    position: relative;
+    z-index: 1;
 }
 #slide2{
-	position:absolute;
-	z-index:2;
-	background-color:rgb(0,0,0,0.4);
-	top:0;
-	bottom:0;
-	left:12px;
-	right:12px;
-	border-radius: 8px;
 	opacity:0;
+    left:0;
+    right:0;
+    top:0;
+    text-align: center;
+    z-index:3;
+    position:absolute;
+    
 }
-#slide2:hover{
+#slide-3:hover #slide2{
 	opacity:1;
 	transition: all ease-in-out 0.3s;
+}
+/*===team hover===*/
+.t-img{
+	text-align: center;
+    position: relative;
+    overflow: hidden;
+	z-index:0;
+}
+.t-img:hover .member-info{
+	opacity:1;
+	
+	
+}
+.member-info{
+	opacity:0;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: 0.2s;
+	background-color:linear-gradient(red,green);
+}
+.social{
+	background-color:rgba(0,0,0,0.7);
+	color:#fff;
+	padding:10px 15px;
+}
+.social i{
+	display:block;
+	margin-top:15px;
+}
+.member-info2{
+	position:absolute;
+	bottom:12px;
+	right:20px;
+	color:#fff;
+	
+	
 }
