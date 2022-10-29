@@ -192,6 +192,34 @@
 	bottom:12px;
 	right:20px;
 	color:#fff;
-	
-	
+}
+/*Contact Section*/
+.bbn{
+	border:none;
+}
+/*FAQ section*/
+.faqb{
+	border-bottom:1px solid #ccc;
+}
+/*===footer-bottom===*/
+@media(min-width:368px){
+	#fbelow{
+		text-align:center;
+	}
+	#fbelow1{
+		text-align:center;
+	}
+}
+@media(min-width:768px){
+	#fbelow{
+		text-align:center;
+	}
+	#fbelow1{
+		text-align:center;
+	}
+}
+@media(min-width:1024px){
+	#fbelow1{
+	  text-align:right;	
+	}
 }
