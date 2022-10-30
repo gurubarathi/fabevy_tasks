@@ -222,4 +222,14 @@
 	#fbelow1{
 	  text-align:right;	
 	}
+	#fbelow{
+		text-align:left;
+	}
 }
+details > summary{
+	list-style-type:none;
+}
+.ds-icon{
+	padding-right:12px;
+}
+
