@@ -15,6 +15,10 @@
 	margin-top:-10px;
 	
 }
+.navbar{
+	z-index:997;
+	background-color:#fff;
+}
 .uline{
 	position:relative;
 }
@@ -166,7 +170,6 @@
 .t-img:hover .member-info{
 	opacity:1;
 	
-	
 }
 .member-info{
 	opacity:0;
@@ -176,7 +179,7 @@
     left: 0;
     right: 0;
     transition: 0.2s;
-	background-color:linear-gradient(red,green);
+	background:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.8));
 }
 .social{
 	background-color:rgba(0,0,0,0.7);
@@ -187,11 +190,25 @@
 	display:block;
 	margin-top:15px;
 }
+@media(min-width:390px){
+	.member-info2
+	{
+	bottom: 21px;
+    right: 92px;
+	}
+}
+@media(min-width:1024px){
 .member-info2{
 	position:absolute;
 	bottom:12px;
 	right:20px;
 	color:#fff;
+}
+}
+
+/*==client img===*/
+.client-img img{
+	filter:grayscale(50%);
 }
 /*Contact Section*/
 .bbn{
