@@ -1,11 +1,19 @@
     /*common a1 -here i styled the  h3,h4 & p */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+.container{
+	padding: 3rem !important;
+}
  .a1 h3{
 	line-height:1.5rem;
 	font-size:0.8rem;
 	font-weight:bold;
 }
  .a1 p{
-	text-indent:2rem;
 	font-size:0.9rem;
 	line-height:1.25rem;
 }
@@ -21,7 +29,6 @@
 	font-weight:bold;
   }
  .a1 p{
-	text-indent:2rem;
 	font-size:1.25rem;
 	line-height:1.5rem;
 }
@@ -38,8 +45,7 @@
 	font-weight:bold;
   }
  .a1 p{
-	text-indent:2rem;
-	font-size:1.3rem;
+	font-size:1.2rem;
 	line-height:1.75rem;
 	
   }
@@ -57,6 +63,7 @@
 }
 .name{
 	text-align:center;
+	margin-top: rem;
 }
 .name h2{
 	font-size:1.5rem;
@@ -108,9 +115,13 @@
 }
 .name{
 	text-align:center;
+	margin-top:2rem;
+    margin-bottom:10px;
+
 }
 .name h2{
-	font-size:2rem;
+	font-size:1.8rem;
+	margin-bottom: 10px;
 }
 .name p{
 	color:blue;
@@ -122,7 +133,8 @@
 	line-height:3 rem;
 }
 .email p{
-	font-size:1.5rem;
+	font-size:1.3rem;
+	margin:0 5px;
 }
 }
 /* Head name start*/
@@ -134,7 +146,7 @@
 	margin:10px 0px;
 }
 .carrier-objective p{
-	text-indent:2rem;
+	
 	font-size:0.9rem;
 	line-height:1.25rem;
 }
@@ -144,31 +156,40 @@
 	font-size:1.25rem;
   }
 .carrier-objective p{
-	text-indent:2rem;
+	
 	font-size:1.25rem;
 	line-height:1.75rem;
   }
 }
 @media(min-width:1024px){
-	.carrier-objective h3{
-	line-height:2rem;
+.carrier-objective h3{
+	line-height:1rem;
 	font-size:1.25rem;
   }
 .carrier-objective p{
-	text-indent:2rem;
-	font-size:1.3rem;
+	text-align: left;
+	font-size:1.2rem;
 	line-height:2.5rem;
   }
 }
 /*carrier-objective end*/
 
 /*Academic*/
+.carrier-objective{
+	margin:1rem 0;
+}
 .academic h3{
 	margin:10px 0px;
 	line-height:1rem;
 }
+.academic{
+	margin:2rem 0;
+}
 
 /*Skill development start*/
+.skill{
+	margin:1.5rem 0;
+}
 .skill ul {
 	list-style-type:disc;
 	
@@ -185,8 +206,9 @@
 .skill li{
 	margin-left:20px;
 }
-.skill .va{
-	vertical-align:middle;
+.va{
+text-align:right;
+margin-top: 10px;
 }
 .skill h3{
 	text-align:left;
@@ -224,17 +246,17 @@
 @media(min-width:1024px){
 	.skill h3{
 	text-align:left;
-    font-size: 1.25rem;
+    font-size: 1.2rem;
 	font-weight:bold;
 	line-height:2rem;
 }
 .skill h4{
-  font-size: 1.25rem;
+  font-size: 1.2rem;
     font-weight: 900;
     line-height: 1.7rem;
 }
 .skill p,li{
-	 font-size: 1.25rem;
+	 font-size: 1.2rem;
     line-height: 1.5rem;	 
 }
 .skil li{
@@ -245,24 +267,31 @@
 
 
 /*Technical skill start*/
+.technical{
+margin:3rem 0;
+}
 .technical h3{
 	text-align:left;
-	line-height:2rem;
+	margin-bottom: 20px;
 }
-
+.ntr{
+ margin:20px 0;
+}
 .technical table{
 	width:100%;
 }
 .technical h4{
-	padding:5px;
+	font-size: 1.2rem;
 }
 .technical p{
-	text-indent:0px;
 	color:blue;
 }
 /*Techinical skill end*/
 
 /*projects start*/
+.projects{
+	margin-top:6.2rem;
+}
 .projects caption{
 	text-align:left;
 	line-height:2rem;
@@ -282,14 +311,30 @@
 	width:100%;
 	margin-bottom:2rem;
 }
+.blue a{
+  padding-left: 20px;
+}
 @media (min-width:760px){
 .projects h4{
 	font-size:1.25rem;
 }
+}
+.pps a{
+	list-style: none;
+	text-decoration: none;
+	color: black;
+}
+.pps{
+	list-style: none !important;
+	text-decoration: none !important;
+	color: black !important;
 }
  /*projects end*/
  
 /*declaration*/
 .declaration p{
 	text-indent:0px;
+}
+.personal{
+	margin-top: 1rem;
 }
